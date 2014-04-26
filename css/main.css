@@ -6309,7 +6309,7 @@ body {
 #welcome {
   height: 300px;
   background-color: #191919;
-  color: #fff;
+  color: #454545;
   position: relative;
 }
 #welcome .welcome-message {
@@ -6320,6 +6320,7 @@ body {
   right: 0;
   bottom: 0;
   padding: 20px 40px;
+  text-align: justify;
 }
 #welcome .welcome-message strong {
   font-size: 1.5em;
