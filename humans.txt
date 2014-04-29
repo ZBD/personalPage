@@ -7,7 +7,7 @@
 
 # THANKS
 
-    H5BP, Bootstrap
+    H5BP, Bootstrap, myprogrammingblog.com
 
 # TECHNOLOGY COLOPHON
 
