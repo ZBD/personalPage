@@ -1,11 +1,3 @@
-/*!
- * Bootstrappin' Styles
- * for Bootstrap Site Blueprints - Packt Publishing
- * David Cochran - @davidcochran
- * Ian Whitley - @itwhitley
- *
- * Innovating on Bootstrap v3.0.2
- */
 /*! normalize.css v2.1.3 | MIT License | git.io/normalize */
 article,
 aside,
@@ -6279,78 +6271,90 @@ button.close {
 body {
   padding-top: 56px;
 }
-#features,
-#impact,
-#signup {
+#skills,
+#portfolio,
+#contact {
   padding-top: 36px;
   padding-bottom: 48px;
 }
-#features h1,
-#impact h1,
-#signup h1 {
-  font-size: 5em;
+#skills h1,
+#portfolio h1,
+#contact h1 {
+  font-size: 4em;
   color: #777777;
   line-height: 1.3;
   padding-bottom: 24px;
+  text-align: center;
 }
 @media (max-width: 767px) {
-  #features,
-  #impact,
-  #signup {
+  #skills,
+  #portfolio,
+  #contact {
     margin-left: 30px;
     margin-right: 30px;
   }
-  #features h1,
-  #impact h1,
-  #signup h1 {
+  #skills h1,
+  #portfolio h1,
+  #contact h1 {
     font-size: 3em;
   }
 }
-#welcome {
-  height: 300px;
+#whoami {
+  height: 1000px;
   background-color: #191919;
   color: #454545;
   position: relative;
 }
-#welcome .welcome-message {
+#whoami .whoami-avator {
   background-color: rgba(3, 3, 3, 0);
-  position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  padding: 20px 40px;
-  text-align: justify;
+  padding: 20px;
 }
-#welcome .welcome-message strong {
+#whoami .whoami-message {
+  background-color: rgba(3, 3, 3, 0);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 20px ;
+  text-align: left;
+}
+#whoami .whoami-message strong {
   font-size: 1.5em;
   text-transform: uppercase;
 }
-#welcome .btn {
+#whoami .btn {
   margin-top: 16px;
 }
 @media (max-width: 991px) {
-  #welcome {
+  #whoami {
     background: #191919 url('../img/background.jpg') center center no-repeat;
   }
 }
 @media (min-width: 768px) {
-  #welcome {
+  #whoami {
     height: 480px;
   }
-  #welcome .container {
+  #whoami .container {
     position: relative;
   }
-  #welcome .welcome-message {
+  #whoami .whoami-avator {
     right: 20%;
     bottom: auto;
   }
-  #welcome .welcome-message strong {
+  #whoami .whoami-message {
+    right: 20%;
+    bottom: auto;
+  }
+  #whoami .whoami-message strong {
     display: block;
   }
 }
 @media (min-width: 992px) {
-  #welcome {
+  #whoami {
     height: 540px;
     background: #191919 url('../img/background.jpg') center center no-repeat;
     -webkit-background-size: cover;
@@ -6358,47 +6362,42 @@ body {
     -o-background-size: cover;
     background-size: cover;
   }
-  #welcome .welcome-message {
+  #whoami .whoami-avator .whoami-message {
     right: 50%;
   }
 }
 @media (min-width: 1200px) {
-  #welcome {
-    height: 540px;
+  #whoami {
+    height: 480px;
     background: #191919 url('../img/background.jpg') center center no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
   }
-  #welcome .welcome-message {
+  #whoami .whoami-avator .whoami-message {
     top: auto;
     right: 50%;
     bottom: auto;
   }
 }
-#features .features-item {
+#skills .skills-item {
   text-align: center;
   padding: 20px;
   height: 270px;
 }
-#features .features-item .icon {
+#skills .skills-item .icon {
   font-size: 90px;
 }
 @media (max-width: 767px) {
-  #features .features-item {
+  #skills .skills-item {
     max-width: 320px;
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
 }
-#impact .hreview {
-  position: relative;
-  padding: 0 10px;
-  border: none;
-}
-#impact .caption {
+#portfolio .caption {
   position: absolute;
   top: auto;
   left: 10px;
@@ -6407,99 +6406,23 @@ body {
   line-height: 1.1;
   background: rgba(26, 26, 26, 0.55);
 }
-#impact .caption blockquote,
-#impact .caption .reviewer {
+#portfolio .caption blockquote,
+#portfolio .caption .project {
   margin: 0 6px;
   padding: 0;
 }
-#impact .caption blockquote {
+#portfolio .caption blockquote {
   margin-top: 4px;
   border: none;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 18px;
   color: #fff;
 }
-#impact .caption .reviewer {
+#portfolio .caption .project {
   margin-top: 2px;
   margin-bottom: 4px;
   text-align: right;
   color: #cccccc;
-}
-#impact .review-item-1 .caption {
-  top: 0;
-  left: 10px;
-  right: 20%;
-  bottom: auto;
-}
-#impact .review-item-2 .caption {
-  top: auto;
-  left: 10px;
-  right: 17%;
-  bottom: 0;
-}
-#impact .review-item-3 .caption {
-  top: auto;
-  left: 17%;
-  right: 10px;
-  bottom: 0;
-}
-#impact .review-item-4 .caption {
-  top: 0;
-  left: 62%;
-  right: 10px;
-  bottom: auto;
-}
-#impact .review-item-4 .caption .reviewer {
-  margin-top: 6px;
-  text-align: left;
-}
-#impact .review-item-5 .caption {
-  top: 0;
-  left: 17%;
-  right: 10px;
-  bottom: auto;
-}
-#impact .review-item-6 .caption {
-  top: 0;
-  left: 10px;
-  right: 63%;
-  bottom: auto;
-}
-#impact .review-item-6 .caption .reviewer {
-  margin-top: 6px;
-  text-align: left;
-}
-#impact .review-item-7 .caption {
-  top: 0;
-  left: 62%;
-  right: 10px;
-  bottom: auto;
-}
-#impact .review-item-7 .caption .reviewer {
-  margin-top: 6px;
-  text-align: left;
-}
-@media (max-width: 767px) {
-  #impact .reviews {
-    max-width: 400px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media (min-width: 768px) and (max-width: 991px) {
-  #impact .review-item-5 {
-    height: 474px;
-    overflow: hidden;
-  }
-  #impact .review-item-5 img {
-    width: 100%;
-  }
-}
-@media (min-width: 992px) {
-  #impact .review-item-4 {
-    display: none;
-  }
 }
 #signup table {
   border: 1px solid #cccccc;
