@@ -16,4 +16,11 @@ $( document ).ready(function() {
 	  }, "slow");
 	});
 
+
+	// Set carousel options
+	$('.carousel').carousel({
+	  interval: 6500 // 6.5 seconds vs. default 5
+	});
+
 });
+
